@@ -1,0 +1,917 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Naniwa Nexus — Lay the stone. Launch the boat.</title>
+  <meta name="description" content="Naniwa Nexus is an Osaka IT company that turns emerging technology into products people can use in everyday business: connected business software, AI for daily operations, records shared between businesses, and ongoing cloud care.">
+  <link rel="canonical" href="https://naniwanexus.com/">
+  <link rel="alternate" hreflang="en" href="https://naniwanexus.com/">
+  <link rel="alternate" hreflang="ja" href="https://naniwanexus.com/">
+  <meta name="theme-color" content="#0a1324">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Naniwa Nexus">
+  <meta property="og:url" content="https://naniwanexus.com/">
+  <meta property="og:title" content="Naniwa Nexus — Lay the stone. Launch the boat.">
+  <meta property="og:description" content="Dependable business software, AI applications, and shared information systems from Osaka. 石を積み、舟を出す。">
+  <meta property="og:image" content="https://naniwanexus.com/assets/img/og-image.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://assets.calendly.com">
+  <link rel="preconnect" href="https://calendly.com">
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&family=Shippori+Mincho+B1:wght@500;700&family=Zen+Kaku+Gothic+New:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script>
+    /* Pick the language before first paint so the page doesn't flash the wrong one */
+    (function () {
+      var r = document.documentElement, l = null;
+      r.classList.add('js');
+      try { l = localStorage.getItem('nn-lang'); } catch (e) {}
+      if (!l) l = (navigator.language || '').toLowerCase().indexOf('ja') === 0 ? 'ja' : 'en';
+      if (l === 'ja') { r.classList.add('lang-ja'); r.lang = 'ja'; }
+    })();
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Naniwa Nexus Co., Ltd.",
+    "alternateName": ["Naniwa Nexus", "株式会社ナニワネクサス"],
+    "url": "https://naniwanexus.com/",
+    "logo": "https://naniwanexus.com/assets/img/favicon.svg",
+    "email": "hiroshiyamamoto@naniwanexus.com",
+    "slogan": "Lay the stone. Launch the boat.",
+    "description": "An Osaka IT company building business software, AI applications, and shared information systems for everyday business.",
+    "address": { "@type": "PostalAddress", "addressLocality": "Osaka", "addressCountry": "JP" },
+    "areaServed": ["Osaka", "Kansai", "Worldwide"],
+    "knowsLanguage": ["en", "ja"]
+  }
+  </script>
+</head>
+<body>
+<a class="skip" href="#main"><span class="en">Skip to content</span><span class="ja">本文へ移動</span></a>
+
+<!-- Icons -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <defs>
+    <symbol id="logo" viewBox="0 0 40 40">
+      <rect width="40" height="40" rx="9" fill="#16253f"/>
+      <path d="M6.4 25.4Q6.5 23.5 8.4 23.4L15.4 23Q17.3 22.9 17.4 24.8L17.8 31.3Q17.9 33.2 16 33.3L8.7 33.7Q6.8 33.7 6.7 31.8Z" fill="#d8d0c1"/>
+      <path d="M22.6 24.6Q22.7 22.8 24.5 22.9L31.6 23.3Q33.5 23.4 33.4 25.3L33.2 31.6Q33.1 33.5 31.2 33.5L24.3 33.3Q22.4 33.2 22.4 31.4Z" fill="#c4bbab"/>
+      <path d="M11.9 22.6Q12.4 11.6 20 11.4Q27.6 11.6 28.1 22.6" fill="none" stroke="#f4efe6" stroke-width="2.6" stroke-linecap="round"/>
+      <circle cx="20" cy="11.4" r="3.1" fill="#c4462b"/>
+    </symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h15M13 6l6 6-6 6"/></symbol>
+    <symbol id="i-down" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v15M6 13l6 6 6-6"/></symbol>
+    <symbol id="i-ext" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12.5l4.5 4.5L19 7.5"/></symbol>
+    <symbol id="i-person" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="3.6"/><path d="M5 20c.8-3.6 3.6-5.6 7-5.6s6.2 2 7 5.6"/></symbol>
+    <symbol id="i-ask" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M9.5 9.5a2.6 2.6 0 0 1 5 .9c0 1.8-2.5 2.2-2.5 3.8M12 17.2v.1"/></symbol>
+    <symbol id="i-connect" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3.5" width="7.5" height="6" rx="1.5"/><rect x="13.5" y="3.5" width="7.5" height="6" rx="1.5"/><rect x="8.25" y="14.5" width="7.5" height="6" rx="1.5"/><path d="M10.5 6.5h3M6.75 9.5v8h1.5M17.25 9.5v8h-1.5"/></symbol>
+    <symbol id="i-ai" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12.5 20.5H6V3.5h8l4 4v4"/><path d="M14 3.5v4h4M9 10h6M9 13.5h3.5"/><circle cx="16.8" cy="16.8" r="3"/><path d="M19 19l2 2"/></symbol>
+    <symbol id="i-shared" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="2.5" y="5" width="7.5" height="14" rx="1.5"/><rect x="14" y="5" width="7.5" height="14" rx="1.5"/><path d="M5 9h2.5M5 12h2.5M16.5 9h2.5M16.5 12h2.5M10 9.5h4M10 14.5h4"/></symbol>
+    <symbol id="i-cloud" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 18.5a4.5 4.5 0 0 1-.7-8.95A6 6 0 0 1 17.6 8.4a4 4 0 0 1-.1 10.1z"/><path d="M9.5 14l2 2 3.5-3.5"/></symbol>
+    <symbol id="i-wholesale" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 12.5H11V20H3.5zM13 12.5h7.5V20H13zM8.25 4h7.5v8.5h-7.5z"/><path d="M6 12.5v2.2M15.5 12.5v2.2M10.8 4v2.2"/></symbol>
+    <symbol id="i-retail" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9.5L5.5 4h13L20 9.5M4 9.5c0 1.4 1.1 2.5 2.7 2.5s2.6-1.1 2.6-2.5c0 1.4 1.1 2.5 2.7 2.5s2.7-1.1 2.7-2.5c0 1.4 1 2.5 2.6 2.5S20 10.9 20 9.5M5.5 12v8h13v-8M10 20v-4.5h4V20"/></symbol>
+    <symbol id="i-hospitality" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M5.5 17.5a6.5 6.5 0 0 1 13 0M3.5 17.5h17M12 11V8.5M10.3 8.5h3.4M3 20.5h18"/></symbol>
+    <symbol id="i-service" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="4.5" width="14" height="16" rx="2"/><path d="M9 4.5v-1h6v1M8.5 12.5l2.5 2.5 4.5-4.5"/></symbol>
+    <symbol id="i-abacus" viewBox="0 0 48 48" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="8" width="40" height="32" rx="3"/><path d="M4 18h40M12 8v32M20 8v32M28 8v32M36 8v32"/><g fill="currentColor" stroke="none"><ellipse cx="12" cy="13" rx="3.4" ry="2.2"/><ellipse cx="20" cy="15" rx="3.4" ry="2.2"/><ellipse cx="28" cy="13" rx="3.4" ry="2.2"/><ellipse cx="36" cy="13" rx="3.4" ry="2.2"/><ellipse cx="12" cy="22" rx="3.4" ry="2.2"/><ellipse cx="12" cy="27" rx="3.4" ry="2.2"/><ellipse cx="20" cy="22" rx="3.4" ry="2.2"/><ellipse cx="28" cy="31" rx="3.4" ry="2.2"/><ellipse cx="28" cy="36" rx="3.4" ry="2.2"/><ellipse cx="36" cy="22" rx="3.4" ry="2.2"/><ellipse cx="36" cy="27" rx="3.4" ry="2.2"/><ellipse cx="36" cy="32" rx="3.4" ry="2.2"/></g></symbol>
+    <symbol id="i-repeat" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M4.5 11a7.5 7.5 0 0 1 13-4.2L19.5 9"/><path d="M19.5 4.5V9H15"/><path d="M19.5 13a7.5 7.5 0 0 1-13 4.2L4.5 15"/><path d="M4.5 19.5V15H9"/></symbol>
+    <symbol id="i-measure" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M3.5 20.5h17M7 17v-4M12 17V9.5M17 17V5.5"/></symbol>
+    <symbol id="i-globe" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"/><path d="M3.5 12h17M12 3.5c2.4 2.4 3.6 5.2 3.6 8.5s-1.2 6.1-3.6 8.5c-2.4-2.4-3.6-5.2-3.6-8.5S9.6 5.9 12 3.5z"/></symbol>
+  </defs>
+</svg>
+
+<header class="site-header" id="siteHeader">
+  <div class="wrap nav">
+    <a class="brand" href="#top" aria-label="Naniwa Nexus — back to top">
+      <svg viewBox="0 0 40 40" aria-hidden="true"><use href="#logo"/></svg>
+      <span class="brand-name"><b>Naniwa Nexus</b></span>
+    </a>
+    <button class="menu-btn" id="menuBtn" type="button" aria-expanded="false" aria-controls="navLinks">
+      <span class="sr"><span class="en">Menu</span><span class="ja">メニュー</span></span>
+      <svg class="i-open" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      <svg class="i-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6 6 18"/></svg>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#focus"><span class="en">Services</span><span class="ja">事業内容</span></a></li>
+      <li><a href="#practice"><span class="en">In practice</span><span class="ja">実践例</span></a></li>
+      <li><a href="#story"><span class="en">Our story</span><span class="ja">大阪の物語</span></a></li>
+      <li><a href="#philosophy"><span class="en">Philosophy</span><span class="ja">経営理念</span></a></li>
+      <li><a href="#world"><span class="en">Global</span><span class="ja">世界と共に</span></a></li>
+      <li><a href="#contact"><span class="en">Contact</span><span class="ja">お問い合わせ</span></a></li>
+      <li class="cta-li"><a class="nav-cta" href="#call"><span class="en">Book a call</span><span class="ja">通話を予約</span></a></li>
+      <li class="lang-li"><button class="lang-btn" id="langBtn" type="button"><span class="en" lang="ja">日本語</span><span class="ja" lang="en">English</span></button></li>
+    </ul>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============ Hero ============ -->
+  <section class="hero" id="top" aria-labelledby="hero-title">
+    <!-- Animated scene, drawn by assets/js/scene.js: plan, boats bring the stones and lay them, connect, launch the boat -->
+    <div class="scene" id="heroScene" aria-hidden="true">
+      <svg id="sceneSvg" viewBox="0 0 1440 640" preserveAspectRatio="xMidYMax slice">
+        <defs>
+          <linearGradient id="hSky" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="#0a1324"/>
+            <stop offset=".5" stop-color="#0f1e38"/>
+            <stop offset=".84" stop-color="#1a3150"/>
+            <stop offset="1" stop-color="#2b4566"/>
+          </linearGradient>
+          <radialGradient id="hGlow">
+            <stop offset="0" stop-color="#f4b860" stop-opacity=".32"/>
+            <stop offset=".5" stop-color="#e98a5a" stop-opacity=".1"/>
+            <stop offset="1" stop-color="#e98a5a" stop-opacity="0"/>
+          </radialGradient>
+          <linearGradient id="hRiver" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="#132644"/>
+            <stop offset=".35" stop-color="#0c1830"/>
+            <stop offset="1" stop-color="#070f1f"/>
+          </linearGradient>
+          <linearGradient id="hGridFade" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+            <stop offset=".35" stop-color="#fff" stop-opacity="1"/>
+            <stop offset="1" stop-color="#fff" stop-opacity=".2"/>
+          </linearGradient>
+          <mask id="gridMask"><rect width="1440" height="446" fill="url(#hGridFade)"/></mask>
+        </defs>
+        <rect width="1440" height="640" fill="url(#hSky)"/>
+        <g id="s-grid" mask="url(#gridMask)"></g>
+        <g id="s-stars"></g>
+        <ellipse cx="1000" cy="446" rx="700" ry="150" fill="url(#hGlow)"/>
+        <g id="s-city"></g>
+        <rect y="446" width="1440" height="194" fill="url(#hRiver)"/>
+        <path d="M0 446.5H1440" stroke="#3d5b86" stroke-opacity=".6"/>
+        <g id="s-reflect"></g>
+        <g id="s-ripples"></g>
+        <g id="s-far"></g>
+        <g id="s-plan"></g>
+        <g id="s-bridge"></g>
+        <g id="s-stones"></g>
+        <g id="s-data"></g>
+        <g id="s-near"></g>
+      </svg>
+    </div>
+    <p class="sr">
+      <span class="en">Animation: a bridge is planned, and two boats sail in loaded with stones. Stone by stone, their cargo is lifted off the decks and laid into the two abutments. The boats sail away, the two halves of the deck meet in the middle, and orders start to flow across it as data while boats launch on the river below.</span>
+      <span class="ja">アニメーション：橋が設計され、石を積んだ二艘の舟がやって来ます。舟の石は一つずつ運び上げられ、二つの橋台に積まれていきます。舟が去ると、両側から伸びた橋桁が中央でつながります。やがて注文がデータとして橋を渡り、川には舟が漕ぎ出していきます。</span>
+    </p>
+
+    <div class="wrap hero-inner">
+      <div class="hero-text">
+        <p class="eyebrow">
+          <span class="en">Osaka IT company · Business software · AI · Cloud</span>
+          <span class="ja">大阪のIT企業 · 業務ソフトウェア · AI · クラウド</span>
+        </p>
+        <p class="co-name"><b>Naniwa Nexus Co., Ltd.</b></p>
+        <h1 id="hero-title">
+          <span class="en"><span class="line">Lay the stone.</span><span class="line">Launch the boat.</span></span>
+          <span class="ja"><span class="line">石を積み、</span><span class="line">舟を出す。</span></span>
+        </h1>
+        <p class="motto-alt"><span class="en" lang="ja">石を積み、舟を出す。</span><span class="ja" lang="en">Lay the stone. Launch the boat.</span></p>
+        <p class="hero-lead">
+          <span class="en">Naniwa Nexus is an Osaka IT company. We build <strong>business software, AI applications, and shared information systems</strong> that people can use in everyday business.</span>
+          <span class="ja">Naniwa Nexusは大阪のIT企業です。日々のビジネスで使える<strong>業務ソフトウェア、AIアプリケーション、共有型の情報システム</strong>をつくります。</span>
+        </p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="#call"><span class="en">Book a 30-minute call</span><span class="ja">30分の通話を予約</span><svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          <a class="btn btn-line" href="#focus"><span class="en">What we build</span><span class="ja">事業内容を見る</span></a>
+        </div>
+      </div>
+    </div>
+
+    <div class="wrap hero-foot">
+      <ol class="build-steps" id="buildSteps" aria-hidden="true">
+        <li><span class="n">01</span><span class="lbl"><span class="en">Plan</span><span class="ja">設計する</span></span></li>
+        <li><span class="n">02</span><span class="lbl"><span class="en">Lay the stone</span><span class="ja">石を積む</span></span></li>
+        <li><span class="n">03</span><span class="lbl"><span class="en">Connect</span><span class="ja">つなぐ</span></span></li>
+        <li><span class="n">04</span><span class="lbl"><span class="en">Launch the boat</span><span class="ja">舟を出す</span></span></li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ============ Business focus ============ -->
+  <section class="section focus" id="focus" aria-labelledby="focus-title">
+    <div class="wrap">
+      <div class="section-head wide reveal">
+        <div>
+          <p class="label"><span class="en">Business focus</span><span class="ja">事業内容</span></p>
+          <h2 id="focus-title">
+            <span class="en">We start where disconnected information slows the work.</span>
+            <span class="ja">情報の分断が仕事を遅らせている、その場所から。</span>
+          </h2>
+        </div>
+        <p class="lead">
+          <span class="en">We focus on workflows where disconnected information creates repeated work or slows customer service.</span>
+          <span class="ja">情報が分断されているために同じ作業が繰り返されたり、お客様への対応が遅れたりしている業務に焦点を当てます。</span>
+        </p>
+      </div>
+
+      <div class="serve reveal">
+        <div>
+          <h3><span class="en">Our first customers</span><span class="ja">最初のお客様</span></h3>
+          <p><span class="en">Small and midsize businesses in Osaka and Kansai, especially these four kinds of business.</span><span class="ja">大阪・関西の中小企業の皆様、とくに次の四つの業種を想定しています。</span></p>
+        </div>
+        <ul class="who">
+          <li><svg aria-hidden="true"><use href="#i-wholesale"/></svg><span><span class="en">Wholesalers</span><span class="ja">卸売業</span></span></li>
+          <li><svg aria-hidden="true"><use href="#i-retail"/></svg><span><span class="en">Retailers</span><span class="ja">小売業</span></span></li>
+          <li><svg aria-hidden="true"><use href="#i-hospitality"/></svg><span><span class="en">Hospitality operators</span><span class="ja">宿泊・飲食などのホスピタリティ</span></span></li>
+          <li><svg aria-hidden="true"><use href="#i-service"/></svg><span><span class="en">Service companies</span><span class="ja">サービス業</span></span></li>
+        </ul>
+      </div>
+
+      <div class="services">
+        <article class="service reveal">
+          <div class="icon"><svg aria-hidden="true"><use href="#i-connect"/></svg></div>
+          <h3><span class="en">Connected business software</span><span class="ja">つながる業務ソフトウェア</span></h3>
+          <p><span class="en">Bring orders, inventory, customer records, and approvals into a workflow that staff can follow.</span><span class="ja">受注、在庫、顧客情報、承認を、スタッフが迷わずたどれる一つの業務の流れにまとめます。</span></p>
+          <p class="n">01</p>
+        </article>
+        <article class="service reveal">
+          <div class="icon"><svg aria-hidden="true"><use href="#i-ai"/></svg></div>
+          <h3><span class="en">AI for daily operations</span><span class="ja">日々の業務のためのAI</span></h3>
+          <p><span class="en">Assist with document processing, internal knowledge search, and customer responses, with review suited to the task.</span><span class="ja">書類処理、社内ナレッジの検索、お客様への返信を支援します。確認の仕組みは、業務の内容に合わせて設計します。</span></p>
+          <p class="n">02</p>
+        </article>
+        <article class="service reveal">
+          <div class="icon"><svg aria-hidden="true"><use href="#i-shared"/></svg></div>
+          <h3><span class="en">Records shared between businesses</span><span class="ja">企業間で共有する記録</span></h3>
+          <p><span class="en">Build supplier and partner systems with clear permissions and traceable changes. Consider blockchain where the use case supports it.</span><span class="ja">明確な権限と追跡できる変更履歴を備えた、仕入先・取引先とのシステムを構築します。用途に適う場合はブロックチェーンも検討します。</span></p>
+          <p class="n">03</p>
+        </article>
+        <article class="service reveal">
+          <div class="icon"><svg aria-hidden="true"><use href="#i-cloud"/></svg></div>
+          <h3><span class="en">Cloud services and ongoing care</span><span class="ja">クラウドサービスと継続的なサポート</span></h3>
+          <p><span class="en">Provide customer portals, maintain systems, train staff, and improve the product as the business changes.</span><span class="ja">顧客ポータルの提供、システムの保守、スタッフの研修を行い、事業の変化に合わせてプロダクトを改善し続けます。</span></p>
+          <p class="n">04</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ The concept in practice ============ -->
+  <section class="section dark practice" id="practice" aria-labelledby="practice-title">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div>
+          <p class="label"><span class="en">The concept in practice</span><span class="ja">実践の姿</span></p>
+          <h2 id="practice-title">
+            <span class="en">A wholesaler that takes orders by email</span>
+            <span class="ja">メールで注文を受ける、ある卸売業者の場合</span>
+          </h2>
+        </div>
+        <p class="lead">
+          <span class="en">Consider a wholesaler receiving orders by email and entering them manually. We would connect order capture to inventory, use AI to prepare structured order details, and let staff resolve uncertain entries.</span>
+          <span class="ja">メールで注文を受け、手作業で入力している卸売業者を例に考えます。受注の取り込みを在庫と連携させ、AIで注文内容を構造化されたデータに整え、判断が不確かな項目はスタッフが確定できるようにします。</span>
+        </p>
+      </div>
+
+      <div class="practice-grid">
+        <ol class="steps reveal">
+          <li class="phase"><span class="en">Lay the stone</span><span class="ja">石を積む</span></li>
+          <li class="step"><div><b><span class="en">Agree on the measures</span><span class="ja">指標に合意する</span></b><span><span class="en">Before development, we agree on measures such as handling time and correction rate.</span><span class="ja">開発の前に、処理時間や修正率といった指標についてお客様と合意します。</span></span></div></li>
+          <li class="step"><div><b><span class="en">Connect order capture to inventory</span><span class="ja">受注と在庫をつなぐ</span></b><span><span class="en">Orders that arrive by email are checked against the same stock records staff use.</span><span class="ja">メールで届いた注文を、スタッフが使う在庫の記録と照らし合わせます。</span></span></div></li>
+          <li class="step"><div><b><span class="en">AI prepares the order details</span><span class="ja">AIが注文内容を整える</span></b><span><span class="en">Customer, items, quantities and delivery date are drafted as a structured order.</span><span class="ja">取引先、品目、数量、納品日を、構造化された注文の下書きにまとめます。</span></span></div></li>
+          <li class="step"><div><b><span class="en">Staff resolve uncertain entries</span><span class="ja">不確かな項目はスタッフが確定する</span></b><span><span class="en">Anything the AI is unsure about goes to a person, who makes the call.</span><span class="ja">AIが判断しきれない項目は人に回り、担当者が決めます。</span></span></div></li>
+          <li class="phase-gap" aria-hidden="true"></li>
+          <li class="phase"><span class="en">Launch the boat</span><span class="ja">舟を出す</span></li>
+          <li class="step"><div><b><span class="en">Pilot, then expand on results</span><span class="ja">試験運用し、結果に基づいて広げる</span></b><span><span class="en">A pilot shows whether the workflow helps. Expansion follows observed results, with support costs made clear.</span><span class="ja">パイロット運用で、その業務フローが役立つかを確かめます。拡大は観察された結果に基づいて行い、サポートにかかるコストも明らかにします。</span></span></div></li>
+        </ol>
+
+        <div class="demo reveal" id="demo">
+          <div class="demo-top">
+            <p class="demo-tag"><span class="en">Illustration with sample data</span><span class="ja">サンプルデータによる説明図</span></p>
+            <p class="demo-hint"><span class="en">Try it: answer the question the AI flags.</span><span class="ja">AIが確認を求めている項目に答えてみてください。</span></p>
+          </div>
+
+          <div class="mail">
+            <div class="mail-head"><span><b><span class="en">Kita Shokudō</span><span class="ja">北食堂</span></b> · <span class="en">Thursday order</span><span class="ja">木曜日の注文</span></span><span>08:42</span></div>
+            <p class="mail-body">
+              <span class="en">Good morning. Could you send <mark>20 cases of the usual soy sauce</mark> and <mark class="unsure">12 of the white miso</mark> for <mark>Thursday</mark>? Thanks, Tanaka</span>
+              <span class="ja">おはようございます。<mark>いつもの醤油を20ケース</mark>と、<mark class="unsure">白味噌を12</mark>、<mark>木曜日</mark>にお願いします。田中</span>
+            </p>
+          </div>
+
+          <p class="flow"><svg aria-hidden="true"><use href="#i-down"/></svg><span class="en">AI drafts a structured order</span><span class="ja">AIが注文の下書きを作成</span></p>
+
+          <div class="order">
+            <div class="order-head"><span><span class="en">Order draft</span><span class="ja">注文の下書き</span></span><span class="id">#0142</span></div>
+            <div class="o-row" style="--fd:1.8s">
+              <span class="k"><span class="en">Customer</span><span class="ja">取引先</span></span>
+              <span class="v"><span class="en">Kita Shokudō</span><span class="ja">北食堂</span></span>
+              <span class="pill ok"><svg aria-hidden="true"><use href="#i-check"/></svg><span class="en">Matched</span><span class="ja">照合済み</span></span>
+            </div>
+            <div class="o-row" style="--fd:2.15s">
+              <span class="k"><span class="en">Item</span><span class="ja">品目</span></span>
+              <span class="v"><span class="en">Soy sauce 1.8 L × 20 cases</span><span class="ja">濃口醤油 1.8L × 20ケース</span></span>
+              <span class="pill ok"><svg aria-hidden="true"><use href="#i-check"/></svg><span class="en">Usual item · in stock</span><span class="ja">いつもの品・在庫あり</span></span>
+            </div>
+            <div class="o-row ask" id="askRow" style="--fd:2.5s">
+              <span class="k"><span class="en">Item</span><span class="ja">品目</span></span>
+              <span class="v" id="askValue"><span class="en">White miso × 12</span><span class="ja">白味噌 × 12</span></span>
+              <span class="pill ask" id="askPill"><svg aria-hidden="true"><use href="#i-ask"/></svg><span class="en">Size unclear</span><span class="ja">サイズ不明</span></span>
+              <div class="choices" id="askChoices">
+                <span class="q"><span class="en">Which size?</span><span class="ja">どのサイズですか？</span></span>
+                <button class="choice" type="button" data-size="1 kg" data-size-ja="1kg">1 kg</button>
+                <button class="choice" type="button" data-size="500 g" data-size-ja="500g">500 g</button>
+              </div>
+            </div>
+            <div class="o-row" style="--fd:2.85s">
+              <span class="k"><span class="en">Delivery</span><span class="ja">納品日</span></span>
+              <span class="v"><span class="en">Thursday</span><span class="ja">木曜日</span></span>
+              <span class="pill ok"><svg aria-hidden="true"><use href="#i-check"/></svg><span class="en">Matched</span><span class="ja">照合済み</span></span>
+            </div>
+            <div class="order-foot">
+              <p class="status" id="demoStatus" aria-live="polite"><span class="en">1 entry needs a person.</span><span class="ja">確認が必要な項目：1件</span></p>
+              <span>
+                <button class="reset" id="demoReset" type="button" hidden><span class="en">Start again</span><span class="ja">最初から</span></button>
+                <button class="btn btn-primary btn-sm" id="demoSend" type="button" disabled><span class="en">Reserve stock</span><span class="ja">在庫を引き当てる</span></button>
+              </span>
+            </div>
+          </div>
+
+          <div class="measures">
+            <div class="measure"><b><span class="en">Handling time</span><span class="ja">処理時間</span></b><span><span class="en">From email received to order confirmed. Agreed before development.</span><span class="ja">メール受信から注文確定まで。開発前に合意します。</span></span></div>
+            <div class="measure"><b><span class="en">Correction rate</span><span class="ja">修正率</span></b><span><span class="en">How often staff change what the AI prepared. Measured in the pilot.</span><span class="ja">AIが用意した内容をスタッフが修正した割合。パイロットで測定します。</span></span></div>
+          </div>
+        </div>
+      </div>
+
+      <p class="practice-close reveal">
+        <span class="en">This is what <em>laying the stone</em> and <em>launching the boat</em> mean in our daily work.</span>
+        <span class="ja">これが、日々の仕事における<em>「石を積み、舟を出す」</em>の意味です。</span>
+      </p>
+    </div>
+  </section>
+
+  <!-- ============ Our name ============ -->
+  <section class="section name" id="name" aria-labelledby="name-title">
+    <div class="wrap name-grid">
+      <figure class="name-fig reveal">
+        <div class="frame">
+          <img src="assets/img/photos/naniwabashi-lion.jpg" width="960" height="1200" alt="A roaring stone lion on a granite pedestal at Naniwabashi bridge in Osaka; the stone below it is carved with the bridge's name in kana" loading="lazy" decoding="async">
+        </div>
+        <figcaption>
+          <span class="en">A stone lion guards Naniwabashi, a bridge across Nakanoshima in central Osaka. The granite beneath it is carved with the bridge's name: なにはばし.</span>
+          <span class="ja">中之島に架かる難波橋のライオン像。台座の御影石に、橋の名「なにはばし」が刻まれています。</span>
+        </figcaption>
+      </figure>
+
+      <div class="name-text reveal">
+        <p class="label"><span class="en">Our name</span><span class="ja">社名の由来</span></p>
+        <h2 id="name-title">
+          <span class="en">A meeting point, named for Osaka.</span>
+          <span class="ja">大阪の古い名を持つ、結節点。</span>
+        </h2>
+        <p>
+          <span class="en">Naniwa is a historical name for Osaka. Nexus means a connection or meeting point. Together, the name describes a place where ideas, engineering, and commercial relationships come together to create useful products.</span>
+          <span class="ja">ナニワは大阪の古い呼び名です。ネクサスは「つながり」や「結節点」を意味します。二つを合わせたこの社名は、アイデアと技術、そして商いの関係が集まり、役に立つプロダクトが生まれる場所を表しています。</span>
+        </p>
+
+        <div class="defs">
+          <div class="def">
+            <p class="kana" lang="ja">ナニワ</p>
+            <p class="word">Naniwa</p>
+            <p><span class="en">A historical name for Osaka, the city of the 808 bridges.</span><span class="ja">大阪の古い呼び名。「八百八橋」とうたわれた水の都。</span></p>
+          </div>
+          <div class="def">
+            <p class="kana" lang="ja">ネクサス</p>
+            <p class="word">Nexus</p>
+            <p><span class="en">A connection, or a meeting point.</span><span class="ja">つながり、結節点。</span></p>
+          </div>
+        </div>
+
+        <div class="meet" aria-label="Ideas, engineering and commercial relationships meet to create useful products">
+          <div class="meet-in">
+            <span class="chip"><span class="en">Ideas</span><span class="ja">アイデア</span></span>
+            <span class="chip"><span class="en">Engineering</span><span class="ja">エンジニアリング</span></span>
+            <span class="chip"><span class="en">Commercial relationships</span><span class="ja">商いの関係</span></span>
+          </div>
+          <div class="meet-lines" aria-hidden="true">
+            <svg viewBox="0 0 100 132" preserveAspectRatio="none"><path d="M0 18C45 18 40 66 72 66M0 66H72M0 114C45 114 40 66 72 66M72 66H100"/><circle cx="72" cy="66" r="5"/></svg>
+          </div>
+          <span class="chip meet-out"><span class="en">Useful products</span><span class="ja">役に立つプロダクト</span></span>
+        </div>
+
+        <p class="takeaway">
+          <span class="en">Our Osaka identity is expressed through what we build and how we earn trust.</span>
+          <span class="ja">私たちの大阪らしさは、何をつくり、どのように信頼を得るかに表れます。</span>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ Motto ============ -->
+  <section class="section dark motto" id="motto" aria-labelledby="motto-title">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div>
+          <p class="label"><span class="en">Our motto</span><span class="ja">モットー</span></p>
+          <h2 id="motto-title">
+            <span class="en">Two Osaka scenes, one way of working.</span>
+            <span class="ja">大阪の二つの情景が、私たちの働き方。</span>
+          </h2>
+        </div>
+        <p class="lead">
+          <span class="en">Each half of our motto comes from a place in Osaka, and each names a responsibility we take on.</span>
+          <span class="ja">モットーの前半と後半は、それぞれ大阪の情景に由来し、私たちが担う責任を表しています。</span>
+        </p>
+      </div>
+
+      <div class="motto-pair">
+        <article class="motto-card reveal">
+          <div class="frame castle">
+            <img src="assets/img/photos/osaka-castle-wall.jpg" width="1600" height="900" alt="Osaka Castle's sloping granite walls rising from the inner moat, with a tour boat on the water and the castle keep among autumn trees" loading="lazy" decoding="async">
+          </div>
+          <h3><span class="en">Lay the stone.</span><span class="ja">石を積む。</span></h3>
+          <p class="alt"><span class="en" lang="ja">石を積む</span><span class="ja" lang="en">Lay the stone</span></p>
+          <p class="says">
+            <span class="en">Building foundations that deserve trust, and taking responsibility for the work.</span>
+            <span class="ja">信頼に値する土台を築き、仕事に責任を持つこと。</span>
+          </p>
+          <p class="from"><span class="en">Drawn from Osaka Castle's stone walls</span><span class="ja">大阪城の石垣から</span></p>
+        </article>
+
+        <article class="motto-card reveal">
+          <div class="frame">
+            <img src="assets/img/photos/tenjin-procession.jpg" width="1600" height="1063" alt="Two Tenjin Matsuri boats crowded with participants in white, hung with lanterns and banners, on the Okawa River at dusk" loading="lazy" decoding="async">
+          </div>
+          <h3><span class="en">Launch the boat.</span><span class="ja">舟を出す。</span></h3>
+          <p class="alt"><span class="en" lang="ja">舟を出す</span><span class="ja" lang="en">Launch the boat</span></p>
+          <p class="says">
+            <span class="en">Putting a product into real use, listening to the people who rely on it, and moving forward with partners.</span>
+            <span class="ja">プロダクトを実際の仕事で使っていただき、頼りにしてくださる方々の声を聞き、パートナーと共に前へ進むこと。</span>
+          </p>
+          <p class="from"><span class="en">Drawn from the Tenjin Matsuri procession on the Okawa River</span><span class="ja">大川をゆく天神祭の船渡御から</span></p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ Osaka story ============ -->
+  <section class="section story" id="story" aria-labelledby="story-title">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div>
+          <p class="label"><span class="en">Our Osaka story</span><span class="ja">大阪の物語</span></p>
+          <h2 id="story-title">
+            <span class="en">From the nation's kitchen</span>
+            <span class="ja">「天下の台所」から</span>
+          </h2>
+        </div>
+        <p class="lead">
+          <span class="en">Our identity joins the engineering discipline suggested by Osaka Castle with the coordinated energy of Tenjin Matsuri and the practical judgment of a merchant city.</span>
+          <span class="ja">大阪城が示す技術の規律、天神祭の息の合った活気、そして商都の実践的な判断。私たちのアイデンティティは、この三つを結びつけています。</span>
+        </p>
+      </div>
+
+      <div class="story-main">
+        <figure class="reveal">
+          <div class="frame">
+            <img src="assets/img/photos/hachikenya-boats.jpg" width="1600" height="1075" alt="Woodblock print: a riverboat moored at stone steps while porters carry boxes of cargo up the steps and travellers climb toward the town" loading="lazy" decoding="async">
+          </div>
+          <figcaption>
+            <span class="en">Utagawa Hiroshige, <i>Boats Docking at Hachikenya</i>, from the series <i>Famous Views of Naniwa</i>, around 1834. Cargo comes off the river and up the stone steps.</span>
+            <span class="ja">歌川広重『浪花名所図会 八けん屋着船之図』（1834年頃）。川から着いた荷が、石段を上っていきます。</span>
+          </figcaption>
+        </figure>
+        <div class="reveal">
+          <h3><span class="en">Goods and knowledge, gathered and exchanged</span><span class="ja">物と知恵が集まり、交わる場所</span></h3>
+          <p class="kicker" lang="ja">天下の台所</p>
+          <p>
+            <span class="en">During the Edo period, Osaka became known as <em>tenka no daidokoro</em>, the nation's kitchen, as goods from across Japan gathered and were traded there.</span>
+            <span class="ja">江戸時代、全国から物資が集まり取引された大阪は「天下の台所」と呼ばれました。</span>
+          </p>
+          <p>
+            <span class="en">We take that exchange of goods and knowledge as our starting point. Ideas and tools arrive from many places. Our work is to combine them into something a customer can use with confidence.</span>
+            <span class="ja">私たちは、この物と知恵の交流を出発点にしています。アイデアや道具は、さまざまな場所からやって来ます。それらを組み合わせ、お客様が安心して使えるものに仕上げることが、私たちの仕事です。</span>
+          </p>
+        </div>
+      </div>
+
+      <div class="lenses">
+        <div class="lens reveal">
+          <p class="glyph" lang="ja" aria-hidden="true">城</p>
+          <h3><span class="en">The castle</span><span class="ja">城の教え</span></h3>
+          <p><span class="en">An image of accountable construction.</span><span class="ja">責任ある築き方の姿。</span></p>
+        </div>
+        <div class="lens reveal">
+          <p class="glyph" lang="ja" aria-hidden="true">祭</p>
+          <h3><span class="en">The festival</span><span class="ja">祭の教え</span></h3>
+          <p><span class="en">An image of people coordinating distinct roles.</span><span class="ja">異なる役割を担う人々が、息を合わせる姿。</span></p>
+        </div>
+        <div class="lens reveal">
+          <p class="glyph" lang="ja" aria-hidden="true">商</p>
+          <h3><span class="en">Merchant thinking</span><span class="ja">商いの教え</span></h3>
+          <p><span class="en">A test for the result.</span><span class="ja">成果を確かめるための問い。</span></p>
+        </div>
+      </div>
+
+      <div class="question reveal">
+        <svg class="abacus" aria-hidden="true"><use href="#i-abacus"/></svg>
+        <div>
+          <p class="q">
+            <span class="en">Does the product make the customer's work better, and is the improvement worth its continuing cost?</span>
+            <span class="ja">そのプロダクトは、お客様の仕事を良くしているか。その改善は、かかり続けるコストに見合っているか。</span>
+          </p>
+          <p class="a">
+            <span class="en">We want our customers to return because the answer remains <strong>yes</strong>.</span>
+            <span class="ja">答えが<strong>「はい」</strong>であり続けるから、お客様がまた戻ってきてくださる。私たちはそうありたいと考えています。</span>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ Vision & mission ============ -->
+  <section class="section dark vision" id="vision" aria-labelledby="vision-title">
+    <div class="wrap">
+      <p class="label reveal"><span class="en">Vision and mission</span><span class="ja">ビジョンとミッション</span></p>
+      <h2 id="vision-title" class="vision-statement reveal">
+        <span class="en">To turn promising ideas into <em>dependable products</em> that earn their place in everyday business, in Osaka and around the world.</span>
+        <span class="ja">有望なアイデアを、日々のビジネスに欠かせない<em>頼れるプロダクト</em>へ。大阪で、そして世界で。</span>
+      </h2>
+      <div class="mission">
+        <div class="reveal">
+          <p class="lead">
+            <span class="en">Our mission is to develop business software, AI applications, and shared information systems that make work easier to coordinate and commercial relationships easier to trust.</span>
+            <span class="ja">私たちの使命は、仕事の連携をしやすくし、取引の関係を信頼しやすくする業務ソフトウェア、AIアプリケーション、共有型の情報システムを開発することです。</span>
+          </p>
+          <ul class="builds">
+            <li><span class="en">Business software</span><span class="ja">業務ソフトウェア</span></li>
+            <li><span class="en">AI applications</span><span class="ja">AIアプリケーション</span></li>
+            <li><span class="en">Shared information systems</span><span class="ja">共有型の情報システム</span></li>
+          </ul>
+        </div>
+        <div class="judge reveal">
+          <p class="k"><span class="en">How we judge success</span><span class="ja">成功の物差し</span></p>
+          <ul>
+            <li><svg aria-hidden="true"><use href="#i-repeat"/></svg><span><span class="en">Sustained use</span><span class="ja">使われ続けること</span></span></li>
+            <li><svg aria-hidden="true"><use href="#i-measure"/></svg><span><span class="en">Measurable customer benefit</span><span class="ja">お客様にとって測れる効果</span></span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ Management philosophy ============ -->
+  <section class="section philosophy" id="philosophy" aria-labelledby="philosophy-title">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div>
+          <p class="label"><span class="en">Management philosophy</span><span class="ja">経営理念</span></p>
+          <h2 id="philosophy-title">
+            <span class="en">Five principles, each with an Osaka origin</span>
+            <span class="ja">大阪の歴史に学ぶ、五つの原則</span>
+          </h2>
+        </div>
+        <p class="lead">
+          <span class="en">Each principle starts from something Osaka built or sustained, and turns it into a way we work.</span>
+          <span class="ja">それぞれの原則は、大阪が築き、受け継いできたものを出発点に、私たちの働き方へと置き換えています。</span>
+        </p>
+      </div>
+
+      <div class="tenets" id="tenets">
+        <div class="tenet-list" id="tenetList">
+          <button class="tab" type="button" data-for="tenet-1"><span class="kanji" lang="ja" aria-hidden="true">一</span><span><span class="en">Put your mark on the stone</span><span class="ja">石に印を刻む</span></span></button>
+          <button class="tab" type="button" data-for="tenet-2"><span class="kanji" lang="ja" aria-hidden="true">二</span><span><span class="en">Earn the next order</span><span class="ja">次の注文をいただく</span></span></button>
+          <button class="tab" type="button" data-for="tenet-3"><span class="kanji" lang="ja" aria-hidden="true">三</span><span><span class="en">Make trust part of the system</span><span class="ja">信頼を仕組みにする</span></span></button>
+          <button class="tab" type="button" data-for="tenet-4"><span class="kanji" lang="ja" aria-hidden="true">四</span><span><span class="en">Own your boat and respect the river</span><span class="ja">自らの舟を担い、川を敬う</span></span></button>
+          <button class="tab" type="button" data-for="tenet-5"><span class="kanji" lang="ja" aria-hidden="true">五</span><span><span class="en">Keep skilled people in the performance</span><span class="ja">人の技を、舞台の中心に</span></span></button>
+        </div>
+
+        <article class="tenet reveal" id="tenet-1" aria-labelledby="tenet-1-title">
+          <figure>
+            <div class="frame"><img src="assets/img/photos/carved-stone-mark.jpg" width="960" height="720" alt="Close-up of granite blocks in Osaka Castle's wall; one stone is carved with a circle inside a circle, and others carry a diamond and a line mark" loading="lazy" decoding="async"></div>
+            <figcaption><span class="en">Marks carved into the stones of Osaka Castle's walls.</span><span class="ja">大阪城の石垣に残る刻印。</span></figcaption>
+          </figure>
+          <div>
+            <p class="tenet-num"><span class="kanji" lang="ja" aria-hidden="true">一</span><span class="en">Principle 1</span><span class="ja">原則 1</span></p>
+            <h3 id="tenet-1-title"><span class="en">Put your mark on the stone</span><span class="ja">石に印を刻む</span></h3>
+            <p class="alt"><span class="en" lang="ja">石に印を刻む</span><span class="ja" lang="en">Put your mark on the stone</span></p>
+            <div class="tenet-cols">
+              <div>
+                <p class="k"><span class="en">From Osaka</span><span class="ja">大阪から</span></p>
+                <p><span class="en">The Tokugawa rebuilding of Osaka Castle began in 1620 and mobilized 64 daimyo families. Stones still bear crests and other marks associated with different construction sections.</span><span class="ja">徳川幕府による大坂城の再築は1620年に始まり、64家の大名が動員されました。石垣の石には今も、各大名が受け持った丁場（工区）に関わる家紋などの刻印が残っています。</span></p>
+              </div>
+              <div class="ours">
+                <p class="k"><span class="en">In our work</span><span class="ja">私たちの仕事では</span></p>
+                <p><span class="en">We use these surviving marks as a metaphor for accountable engineering. Every important component has a responsible owner. We record design decisions, identify the sources of data and dependencies, and give credit for contributions. Maintenance and recovery are part of the foundations we promise to support.</span><span class="ja">こうして残る刻印を、責任あるエンジニアリングのたとえとしています。重要な構成要素には、必ず責任を持つ担当者がいます。設計上の判断を記録し、データや依存関係の出どころを明らかにし、貢献した人の功績を認めます。保守と復旧も、私たちが支えると約束する土台の一部です。</span></p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="tenet reveal" id="tenet-2" aria-labelledby="tenet-2-title">
+          <figure>
+            <div class="frame"><img src="assets/img/photos/zakoba-fish-market.jpg" width="1600" height="1072" alt="Woodblock print of a crowded wholesale fish market: traders in patterned robes carry baskets and bargain in front of the market stalls" loading="lazy" decoding="async"></div>
+            <figcaption><span class="en">Utagawa Hiroshige, <i>Fish Market at Zakoba</i>, from <i>Famous Views of Naniwa</i>, around 1834.</span><span class="ja">歌川広重『浪花名所図会 雑喉場魚市の図』（1834年頃）。</span></figcaption>
+          </figure>
+          <div>
+            <p class="tenet-num"><span class="kanji" lang="ja" aria-hidden="true">二</span><span class="en">Principle 2</span><span class="ja">原則 2</span></p>
+            <h3 id="tenet-2-title"><span class="en">Earn the next order</span><span class="ja">次の注文をいただく</span></h3>
+            <p class="alt"><span class="en" lang="ja">次の注文をいただく</span><span class="ja" lang="en">Earn the next order</span></p>
+            <div class="tenet-cols">
+              <div>
+                <p class="k"><span class="en">From Osaka</span><span class="ja">大阪から</span></p>
+                <p><span class="en">We interpret Osaka's merchant heritage through repeat business earned by useful work.</span><span class="ja">私たちは大阪の商人の伝統を、役に立つ仕事によって次のご注文をいただくこと、と受け止めています。</span></p>
+              </div>
+              <div class="ours">
+                <p class="k"><span class="en">In our work</span><span class="ja">私たちの仕事では</span></p>
+                <p><span class="en">Before selecting a technology, we agree on the improvement the customer needs. After launch, we examine adoption, operating costs, and results. An AI application should save enough time or improve enough work to justify its use. We make room for experiments, give each one a clear question, and expand it when the evidence supports doing so.</span><span class="ja">技術を選ぶ前に、お客様に必要な改善について合意します。導入後は、定着の度合い、運用コスト、成果を検証します。AIアプリケーションは、その利用に見合うだけ時間を節約し、仕事を良くするものでなければなりません。実験の余地を設け、それぞれに明確な問いを立て、根拠が得られたときに広げていきます。</span></p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="tenet reveal" id="tenet-3" aria-labelledby="tenet-3-title">
+          <figure>
+            <div class="frame"><img src="assets/img/photos/dojima-rice-market.jpg" width="1600" height="692" style="object-position: 62% 50%" alt="Woodblock print of the Dojima rice market: traders crowd a long hall built out over the river on wooden piles, with sailboats and ferries below" loading="lazy" decoding="async"></div>
+            <figcaption><span class="en">Yoshimitsu Sasaki, the Dojima rice market, around 1880.</span><span class="ja">堂島の米市場を描いた錦絵（1880年頃）。</span></figcaption>
+          </figure>
+          <div>
+            <p class="tenet-num"><span class="kanji" lang="ja" aria-hidden="true">三</span><span class="en">Principle 3</span><span class="ja">原則 3</span></p>
+            <h3 id="tenet-3-title"><span class="en">Make trust part of the system</span><span class="ja">信頼を仕組みにする</span></h3>
+            <p class="alt"><span class="en" lang="ja">信頼を仕組みにする</span><span class="ja" lang="en">Make trust part of the system</span></p>
+            <div class="tenet-cols">
+              <div>
+                <p class="k"><span class="en">From Osaka</span><span class="ja">大阪から</span></p>
+                <p><span class="en">The Dojima Rice Exchange, officially authorized in 1730, used trading rules, membership, and clearing arrangements that helped make organized exchange possible.</span><span class="ja">1730年に公認された堂島米会所では、取引のルール、会員制度、清算の仕組みが、組織的な取引を可能にしていました。</span></p>
+              </div>
+              <div class="ours">
+                <p class="k"><span class="en">In our work</span><span class="ja">私たちの仕事では</span></p>
+                <p><span class="en">Its lesson for us is that trust needs understandable rules and reliable records. We define who may change data, how changes are recorded, and how discrepancies are resolved. Blockchain is a possible tool when organizations need a shared record. Its use must justify the operating cost and arrangements for managing that record.</span><span class="ja">ここから学ぶのは、信頼にはわかりやすいルールと確かな記録が必要だということです。誰がデータを変更できるか、変更をどう記録するか、食い違いをどう解決するかを定めます。複数の組織が共有の記録を必要とするとき、ブロックチェーンは選択肢の一つです。ただしその利用は、運用コストと、記録を管理する体制に見合うものでなければなりません。</span></p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="tenet reveal" id="tenet-4" aria-labelledby="tenet-4-title">
+          <figure>
+            <div class="frame"><img src="assets/img/photos/tenjin-ko-boat.jpg" width="1600" height="1067" style="object-position: 40% 70%" alt="Tenjin Matsuri boats on the Okawa River at sunset; the boat in front carries the name 人形船講 on its hull, with city towers and a bridge behind" loading="lazy" decoding="async"></div>
+            <figcaption><span class="en">A boat of the Ningyōbune-kō (人形船講), one of the groups taking part in the Tenjin Matsuri boat procession.</span><span class="ja">天神祭の船渡御に参加する「人形船講」の船。</span></figcaption>
+          </figure>
+          <div>
+            <p class="tenet-num"><span class="kanji" lang="ja" aria-hidden="true">四</span><span class="en">Principle 4</span><span class="ja">原則 4</span></p>
+            <h3 id="tenet-4-title"><span class="en">Own your boat and respect the river</span><span class="ja">自らの舟を担い、川を敬う</span></h3>
+            <p class="alt"><span class="en" lang="ja">自らの舟を担い、川を敬う</span><span class="ja" lang="en">Own your boat and respect the river</span></p>
+            <div class="tenet-cols">
+              <div>
+                <p class="k"><span class="en">From Osaka</span><span class="ja">大阪から</span></p>
+                <p><span class="en">Tenjin Matsuri's boat procession is part of a shrine festival sustained by participating groups, including organizations known as <i>kō</i>.</span><span class="ja">天神祭の船渡御は、「講」と呼ばれる団体をはじめ、参加する人々の集まりに支えられてきた神社の祭礼の一部です。</span></p>
+              </div>
+              <div class="ours">
+                <p class="k"><span class="en">In our work</span><span class="ja">私たちの仕事では</span></p>
+                <p><span class="en">We draw from it the idea of distinct teams coordinating within a shared framework. Each team owns a clear customer outcome and makes its progress visible. Shared interfaces and agreed standards let their work fit together. Partners help shape the product and retain a clear understanding of their responsibilities and contribution.</span><span class="ja">ここから、それぞれのチームが共通の枠組みの中で連携するという考え方を学びます。各チームはお客様にとっての明確な成果に責任を持ち、進み具合を見えるようにします。共通のインターフェースと合意された標準が、それぞれの仕事を一つにつなげます。パートナーはプロダクトづくりに加わり、自らの責任と貢献を明確に把握できます。</span></p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="tenet reveal" id="tenet-5" aria-labelledby="tenet-5-title">
+          <figure>
+            <div class="frame"><img src="assets/img/photos/bunraku-puppeteers.jpg" width="1400" height="1050" style="object-position: 50% 60%" alt="A Bunraku performance: an unhooded lead puppeteer in black holds a puppet in a red and white kimono, while a puppeteer in a black hood works beside him" loading="lazy" decoding="async"></div>
+            <figcaption><span class="en">Bunraku at Gion Corner, Kyoto. The lead puppeteer performs unhooded beside a hooded fellow puppeteer.</span><span class="ja">京都・ギオンコーナーでの文楽。素顔の主遣いが、黒衣の人形遣いと共に人形を遣います。</span></figcaption>
+          </figure>
+          <div>
+            <p class="tenet-num"><span class="kanji" lang="ja" aria-hidden="true">五</span><span class="en">Principle 5</span><span class="ja">原則 5</span></p>
+            <h3 id="tenet-5-title"><span class="en">Keep skilled people in the performance</span><span class="ja">人の技を、舞台の中心に</span></h3>
+            <p class="alt"><span class="en" lang="ja">人の技を、舞台の中心に</span><span class="ja" lang="en">Keep skilled people in the performance</span></p>
+            <div class="tenet-cols">
+              <div>
+                <p class="k"><span class="en">From Osaka</span><span class="ja">大阪から</span></p>
+                <p><span class="en">In Bunraku, three puppeteers coordinate different movements of a puppet, using practiced cues to work together.</span><span class="ja">文楽では、三人の人形遣いが一体の人形の異なる動きを受け持ち、修練を重ねた合図で息を合わせます。</span></p>
+              </div>
+              <div class="ours">
+                <p class="k"><span class="en">In our work</span><span class="ja">私たちの仕事では</span></p>
+                <p><span class="en">We draw a lesson about human skill and responsibility. When AI assists a workflow, people should know its role, who reviews important decisions, and how to correct a mistake. We design clear handoffs and useful feedback, and invest in the skills of the people using the product. The quality of their work remains our measure.</span><span class="ja">ここから、人の技能と責任について学びます。AIが業務を支援するとき、人はAIの役割、重要な判断を誰が確認するか、誤りをどう正すかを知っているべきです。私たちは明確な引き継ぎと役に立つフィードバックを設計し、プロダクトを使う人々の技能に投資します。その人々の仕事の質こそが、私たちの物差しです。</span></p>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ Creating with the world ============ -->
+  <section class="section world tint" id="world" aria-labelledby="world-title">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div>
+          <p class="label"><span class="en">Creating with the world</span><span class="ja">世界と共に創る</span></p>
+          <h2 id="world-title">
+            <span class="en">Partners abroad help shape what we build.</span>
+            <span class="ja">海外のパートナーと、プロダクトを形にする。</span>
+          </h2>
+        </div>
+        <p class="lead">
+          <span class="en">Our partners abroad will participate in defining products and testing them in their own markets.</span>
+          <span class="ja">海外のパートナーには、プロダクトの定義に参加し、それぞれの市場で検証していただきます。</span>
+        </p>
+      </div>
+
+      <!-- Animated river band, drawn by assets/js/scene.js -->
+      <figure class="band reveal" id="band">
+        <div class="band-frame">
+          <svg id="bandSvg" viewBox="0 0 1440 240" preserveAspectRatio="xMidYMid slice" aria-hidden="true" focusable="false">
+            <defs>
+              <linearGradient id="bWater" x1="0" y1="0" x2="0" y2="1">
+                <stop offset="0" stop-color="#14284a"/>
+                <stop offset="1" stop-color="#08111f"/>
+              </linearGradient>
+            </defs>
+            <rect width="1440" height="240" fill="#0b1527"/>
+            <g id="b-city"></g>
+            <rect y="62" width="1440" height="178" fill="url(#bWater)"/>
+            <path d="M0 62.5H1440" stroke="#3d5b86" stroke-opacity=".55"/>
+            <g id="b-ripples"></g>
+            <g id="b-boats"></g>
+          </svg>
+        </div>
+        <figcaption>
+          <span class="en">Separate crews on one river: each team owns its boat, and the work moves together.</span>
+          <span class="ja">ひとつの川をゆく、いくつもの舟。チームはそれぞれ自分の舟を担い、仕事は共に進みます。</span>
+        </figcaption>
+      </figure>
+
+      <ol class="commit">
+        <li class="reveal">
+          <span class="n">i.</span>
+          <h3><span class="en">Define and test together</span><span class="ja">共に定義し、共に検証する</span></h3>
+          <p><span class="en">Partners take part in defining products and test them in their own markets.</span><span class="ja">パートナーはプロダクトの定義に加わり、それぞれの市場で検証します。</span></p>
+        </li>
+        <li class="reveal">
+          <span class="n">ii.</span>
+          <h3><span class="en">Agree terms early</span><span class="ja">条件は早めに合意する</span></h3>
+          <p><span class="en">Credit, responsibilities, and commercial terms are agreed at the start.</span><span class="ja">功績の帰属、責任、取引条件を最初の段階で取り決めます。</span></p>
+        </li>
+        <li class="reveal">
+          <span class="n">iii.</span>
+          <h3><span class="en">Design for local practice</span><span class="ja">現地に合わせて設計する</span></h3>
+          <p><span class="en">Products are designed for local languages and working practices.</span><span class="ja">現地の言語や働き方に合わせてプロダクトを設計します。</span></p>
+        </li>
+        <li class="reveal">
+          <span class="n">iv.</span>
+          <h3><span class="en">Open standards, clear documentation</span><span class="ja">オープンな標準と明確な文書</span></h3>
+          <p><span class="en">Separate teams can contribute to one shared product.</span><span class="ja">離れたチームも、ひとつの共有プロダクトに貢献できます。</span></p>
+        </li>
+      </ol>
+
+      <div class="ambition reveal">
+        <svg aria-hidden="true"><use href="#i-globe"/></svg>
+        <p>
+          <span class="en">Our international ambition is to create work that customers in another country find as useful as our first customers in Osaka.</span>
+          <span class="ja">私たちの国際的な目標は、大阪の最初のお客様と同じように、海外のお客様にも役立つと感じていただける仕事をすることです。</span>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ Customer promise ============ -->
+  <section class="promise" id="promise" aria-labelledby="promise-title">
+    <img class="promise-bg" src="assets/img/photos/okawa-sunset.jpg" width="1920" height="1280" alt="" loading="lazy" decoding="async">
+    <div class="wrap promise-inner reveal">
+      <p class="label"><span class="en">Our customer promise</span><span class="ja">お客様への約束</span></p>
+      <h2 class="sr" id="promise-title"><span class="en">Our customer promise</span><span class="ja">お客様への約束</span></h2>
+      <blockquote>
+        <span class="en">We will build something your team can depend on, show how it improves your work, and keep listening after launch.</span>
+        <span class="ja">皆様のチームが頼れるものをつくり、それが仕事をどう良くするかをお見せし、導入後も耳を傾け続けます。</span>
+      </blockquote>
+      <p class="sub">
+        <span class="en">We intend to earn the next order through the value of the last one.</span>
+        <span class="ja">前回の仕事の価値によって、次のご注文をいただく。それが私たちの目指す姿です。</span>
+      </p>
+      <p class="motto-close" lang="ja">石を積み、舟を出す。</p>
+      <div class="cta">
+        <a class="btn btn-primary" href="#call"><span class="en">Book a 30-minute call</span><span class="ja">30分の通話を予約</span><svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        <a class="btn btn-line" data-contact-email href="mailto:hiroshiyamamoto@naniwanexus.com" data-keep-label><span class="en">Email us</span><span class="ja">メールで問い合わせる</span></a>
+      </div>
+      <p class="promise-cap"><span class="en">Tenjin Matsuri boats on the Okawa River at sunset, Osaka</span><span class="ja">夕日の大川をゆく天神祭の船（大阪）</span></p>
+    </div>
+  </section>
+
+  <!-- ============ Book a call ============ -->
+  <section class="section call" id="call" aria-labelledby="call-title">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div>
+          <p class="label"><span class="en">Book a call</span><span class="ja">通話を予約</span></p>
+          <h2 id="call-title">
+            <span class="en">Talk with us for 30 minutes</span>
+            <span class="ja">30分、お話ししませんか。</span>
+          </h2>
+        </div>
+        <p class="lead">
+          <span class="en">Tell us about a workflow that creates repeated work or slows customer service. Before any technology is chosen, we'll talk through the improvement you need. Times are shown in your own time zone.</span>
+          <span class="ja">同じ作業の繰り返しや、お客様対応の遅れを生んでいる業務についてお聞かせください。技術を選ぶ前に、どのような改善が必要かを一緒に整理します。時刻はお使いのタイムゾーンで表示されます。</span>
+        </p>
+      </div>
+
+      <!-- Calendly booking calendar: https://calendly.com/hiroshiyamamoto-naniwanexus/30min (set in assets/js/main.js) -->
+      <div class="call-panel reveal">
+        <div class="calendly-embed" id="calendlyEmbed">
+          <div class="calendly-wait" id="calendlyWait">
+            <span class="spinner" aria-hidden="true"></span>
+            <p><span class="en">Loading the booking calendar…</span><span class="ja">予約カレンダーを読み込んでいます…</span></p>
+            <a class="btn btn-line btn-sm" data-calendly-link href="https://calendly.com/hiroshiyamamoto-naniwanexus/30min" target="_blank" rel="noopener"><span class="en">Open in Calendly</span><span class="ja">Calendlyで開く</span><svg aria-hidden="true"><use href="#i-ext"/></svg></a>
+          </div>
+        </div>
+      </div>
+      <div class="call-fallback">
+        <p>
+          <span class="en">Prefer a new tab, or calendar not showing? Book on Calendly directly, or email <a data-contact-email href="mailto:hiroshiyamamoto@naniwanexus.com">hiroshiyamamoto@naniwanexus.com</a>.</span>
+          <span class="ja">新しいタブで開きたい場合や、カレンダーが表示されない場合は、Calendlyで直接ご予約いただくか、<a data-contact-email href="mailto:hiroshiyamamoto@naniwanexus.com">hiroshiyamamoto@naniwanexus.com</a> までメールでご連絡ください。</span>
+        </p>
+        <a class="btn btn-line btn-sm" data-calendly-link href="https://calendly.com/hiroshiyamamoto-naniwanexus/30min" target="_blank" rel="noopener"><span class="en">Book on Calendly</span><span class="ja">Calendlyで予約する</span><svg aria-hidden="true"><use href="#i-ext"/></svg></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ Contact ============ -->
+  <section class="section contact" id="contact" aria-labelledby="contact-title">
+    <div class="wrap contact-grid">
+      <div class="reveal">
+        <p class="label"><span class="en">Contact</span><span class="ja">お問い合わせ</span></p>
+        <h2 id="contact-title">
+          <span class="en">Tell us what your team needs.</span>
+          <span class="ja">チームに必要なことを、お聞かせください。</span>
+        </h2>
+        <p class="lead">
+          <span class="en">A workflow to improve, a pilot to plan, or a partnership from another market. We reply in English or Japanese.</span>
+          <span class="ja">改善したい業務、計画中のパイロット、海外市場からの協業のご相談など。日本語・英語のどちらでもご返信します。</span>
+        </p>
+        <div class="reach">
+          <div class="reach-card">
+            <p class="reach-k"><span class="en">Write to us</span><span class="ja">メールで</span></p>
+            <a class="reach-mail" data-contact-email href="mailto:hiroshiyamamoto@naniwanexus.com">hiroshiyamamoto@naniwanexus.com</a>
+            <p class="reach-note"><span class="en">Tell us about the work, the people who do it, and what would make it better.</span><span class="ja">どのような仕事を、どなたが担い、何が良くなればよいのかをお聞かせください。</span></p>
+          </div>
+          <div class="reach-card">
+            <p class="reach-k"><span class="en">Or talk with us</span><span class="ja">または、通話で</span></p>
+            <p class="reach-note"><span class="en">Pick a time for a 30-minute video call.</span><span class="ja">30分のビデオ通話を、ご都合のよい時間にご予約いただけます。</span></p>
+            <a class="btn btn-line" href="#call"><span class="en">Book a call</span><span class="ja">通話を予約する</span><svg aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="profile reveal">
+        <h3><span class="en">Company profile</span><span class="ja">会社概要</span></h3>
+        <dl class="details">
+          <div><dt><span class="en">Company</span><span class="ja">社名</span></dt><dd>Naniwa Nexus Co., Ltd.</dd></div>
+          <div><dt><span class="en">Based in</span><span class="ja">拠点</span></dt><dd><span class="en">Osaka, Japan</span><span class="ja">大阪</span></dd></div>
+          <div><dt><span class="en">Business</span><span class="ja">事業内容</span></dt><dd><span class="en">Business software, AI applications, shared information systems, cloud services and ongoing care</span><span class="ja">業務ソフトウェア、AIアプリケーション、共有型情報システム、クラウドサービスと継続的なサポート</span></dd></div>
+          <div><dt><span class="en">Customers</span><span class="ja">お客様</span></dt><dd><span class="en">Small and midsize businesses in Osaka and Kansai, with partners abroad</span><span class="ja">大阪・関西の中小企業、海外のパートナー</span></dd></div>
+          <div><dt><span class="en">Email</span><span class="ja">メール</span></dt><dd><a data-contact-email href="mailto:hiroshiyamamoto@naniwanexus.com">hiroshiyamamoto@naniwanexus.com</a></dd></div>
+          <div><dt><span class="en">Website</span><span class="ja">ウェブサイト</span></dt><dd><a href="https://naniwanexus.com/">naniwanexus.com</a></dd></div>
+          <div><dt><span class="en">Languages</span><span class="ja">対応言語</span></dt><dd>English · <span lang="ja">日本語</span></dd></div>
+          <div><dt><span class="en">Motto</span><span class="ja">モットー</span></dt><dd>Lay the stone. Launch the boat.<br><span lang="ja">石を積み、舟を出す。</span></dd></div>
+        </dl>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-main">
+      <div class="footer-brand">
+        <a class="brand" href="#top">
+          <svg viewBox="0 0 40 40" aria-hidden="true"><use href="#logo"/></svg>
+          <span class="brand-name"><b>Naniwa Nexus</b></span>
+        </a>
+        <p class="fmotto">Lay the stone. Launch the boat.</p>
+        <p class="fmotto-ja" lang="ja">石を積み、舟を出す。</p>
+        <p>Naniwa Nexus Co., Ltd. · <span class="en">Osaka, Japan</span><span class="ja">大阪</span></p>
+        <p><a data-contact-email href="mailto:hiroshiyamamoto@naniwanexus.com">hiroshiyamamoto@naniwanexus.com</a></p>
+      </div>
+      <ul class="footer-nav">
+        <li><a href="#focus"><span class="en">Business focus</span><span class="ja">事業内容</span></a></li>
+        <li><a href="#practice"><span class="en">The concept in practice</span><span class="ja">実践の姿</span></a></li>
+        <li><a href="#name"><span class="en">Our name</span><span class="ja">社名の由来</span></a></li>
+        <li><a href="#motto"><span class="en">Our motto</span><span class="ja">モットー</span></a></li>
+        <li><a href="#story"><span class="en">Our Osaka story</span><span class="ja">大阪の物語</span></a></li>
+        <li><a href="#vision"><span class="en">Vision and mission</span><span class="ja">ビジョンとミッション</span></a></li>
+        <li><a href="#philosophy"><span class="en">Management philosophy</span><span class="ja">経営理念</span></a></li>
+        <li><a href="#world"><span class="en">Creating with the world</span><span class="ja">世界と共に創る</span></a></li>
+        <li><a href="#call"><span class="en">Book a call</span><span class="ja">通話を予約</span></a></li>
+        <li><a href="#contact"><span class="en">Contact</span><span class="ja">お問い合わせ</span></a></li>
+      </ul>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="year">2026</span> Naniwa Nexus Co., Ltd.</span>
+      <span><span class="en">Made in Osaka, with the world.</span><span class="ja">大阪から、世界と共に。</span></span>
+    </div>
+  </div>
+</footer>
+
+<script src="assets/js/main.js" defer></script>
+<script src="assets/js/scene.js" defer></script>
+</body>
+</html>
