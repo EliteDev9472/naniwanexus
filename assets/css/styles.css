@@ -680,6 +680,8 @@ html.lang-ja .details div { grid-template-columns: 96px 1fr; }
 .footer-brand .fmotto { font-family: var(--serif); color: var(--on-dark); font-size: 18px; font-style: italic; margin-bottom: 2px; }
 .footer-brand .fmotto-ja { font-family: var(--serif-ja); color: var(--kin-soft); letter-spacing: .18em; margin-bottom: 16px; }
 .footer-brand a { color: var(--on-dark); text-underline-offset: 3px; text-decoration-color: rgba(244, 239, 230, .3); }
+.footer-brand .fwhatsapp { display: flex; align-items: center; gap: 8px; }
+.footer-brand .fwhatsapp svg { width: 14px; height: 14px; flex: none; color: var(--on-dark-muted); }
 .footer-nav { display: grid; grid-template-columns: 1fr 1fr; gap: 10px 32px; list-style: none; margin: 0; padding: 0; align-content: start; }
 .footer-nav a { text-decoration: none; }
 .footer-nav a:hover { color: var(--on-dark); }

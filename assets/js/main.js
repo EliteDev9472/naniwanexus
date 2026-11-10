@@ -5,6 +5,10 @@ var CONTACT_CONFIG = {
   // Business inbox, shown wherever the page links to email.
   toEmail: 'hiroshiyamamoto@naniwanexus.com',
 
+  // WhatsApp business number, written the way it should be read on the page.
+  // The wa.me link is built from the digits, so the spacing here is free to change.
+  whatsapp: '+1 (331) 270 7150',
+
   // 30-minute call booking page. Availability, time zones and confirmations are managed in Calendly.
   calendlyUrl: 'https://calendly.com/hiroshiyamamoto-naniwanexus/30min'
 };
@@ -230,6 +234,12 @@ var CONTACT_CONFIG = {
     if (!a.hasAttribute('data-keep-label')) a.textContent = CONTACT_CONFIG.toEmail;
   });
   document.querySelectorAll('[data-calendly-link]').forEach(function (a) { a.href = CONTACT_CONFIG.calendlyUrl; });
+
+  var waLink = 'https://wa.me/' + CONTACT_CONFIG.whatsapp.replace(/\D/g, '');
+  document.querySelectorAll('[data-contact-whatsapp]').forEach(function (a) {
+    a.href = waLink;
+    if (!a.hasAttribute('data-keep-label')) a.textContent = CONTACT_CONFIG.whatsapp;
+  });
 
   /* ---------- Calendly booking calendar ----------
      Loads when the section comes near the screen, or as soon as someone points at,
